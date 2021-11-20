@@ -1,0 +1,242 @@
+\section{Closure Test of the $B^{+}$ Corrected Yield}
+\label{sec:closuretest}
+
+The closure test on $B^+$ is basically identical to the $B_s$ case documented in section 8 of the AN-19-055 \cite{AN-19-055}. Therefore, here we will not discuss the detail procedures again about the studies in texts. Instead, we will just present the final results and summary of the statistical and systematic uncertainties from the closure test in this section.
+
+
+We first get the randomly sampled data-like size MC percentage deviation from the expected efficiency. Figure \ref{fig:LowStatClosure} shows the results from our studies.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_90_0.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_90_1.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_90_2.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_90_3.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_30_-1.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_30_90_-1.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/EffClosure/EffONLY_0_90_-1.png} 
+ 
+\caption{The percentage deviation distributions of $\langle \frac{1}{\alpha \times \epsilon}\rangle$ to RECO/GEN for the data-like randomly sampled MC samples for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% are shown respectfully above.} 
+\label{fig:LowStatClosure} 
+\end{center}
+\end{figure}
+\clearpage
+
+Finally, we quote the mean value as the systematic due to the non-closure of $\langle \frac{1}{\alpha \times \epsilon}\rangle$. The percentage deviation is summarize in the table \ref{tab:SystBias}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The  percentage deviation of the efficiency factors from the expected value in the statistics similar to the data analysis are shown above.}
+\vspace{1em}
+\label{tab:SystBias}
+  \begin{tabular}{| c | c |c |}
+    \hline
+     Centrality &  \pt (GeV/c) &   \% Dev \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  \textbf{-2.58\% }   \\ 
+0 - 90\% & 10 - 15 &  \textbf{-0.43\% }   \\ 
+0 - 90\% & 15 - 20 &   \textbf{-1.53\% }   \\ 
+0 - 90\% & 20 - 50 &  \textbf{-0.50\% }   \\ 
+0 - 90\% & 10 - 50 &  \textbf{-0.28\% }   \\ 
+0 - 30\% & 10 - 50 &   \textbf{-0.57\% }   \\ 
+30 - 90\% & 10 - 50 & \textbf{-0.20\% }   \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
+
+In conclusion, we can see that, even in the limit of low statistics, which is similar to the statistics in our data analysis, the $\langle \frac{1}{\alpha \times \epsilon} \rangle$ correction method still gives us satisfying closure with bias within 3\%. 
+
+
+Next, we validate that our fits to extract the raw yield actually have good closure. The raw yield distributions are shown below for \pt bins in Figure \ref{fig:DataBoostrapFitPt} and centrality bins Figure \ref{fig:DataBoostrapFitCent}. We also summarize on Table \ref{tab:BSTvsToyMC}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_90_7-10.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_0_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_90_10-15.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_1_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_90_15-20.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_2_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_90_20-50.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_3_0_90.png}
+\caption{The raw yield distributions from resampled datasets (left) and toy MC (right) for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, 20 - 50 are shown respectfully above.} 
+\label{fig:DataBoostrapFitPt} 
+\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_90_10-50.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_-1_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_0_30_10-50.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_-1_0_30.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/RawYieldPlot_30_90_10-50.png} 
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/params_signal_full_-1_30_90.png}
+\caption{The raw yield distributions from resampled datasets (left) and toy MC (right) for 10 - 50 GeV/c for 0 - 30\%, 30\% - 90\%, and 0 - 90\% are shown respectfully above.} 
+\label{fig:DataBoostrapFitCent} 
+\end{center}
+\end{figure}
+
+\clearpage
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The comparison between $B^+$ data re-samping raw yield and toy MC raw yield for each \pt and centrality bin are summarized above.}
+\vspace{1em}
+\label{tab:BSTvsToyMC}
+  \begin{tabular}{| c | c |c |c|}
+    \hline
+     Centrality &  \pt (GeV/c) & Data Resampling Raw Yield & Toy MC Raw Yield \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  \textbf{90 $\pm$ 10}  &  \textbf{  92 $\pm$ 11 } \\ 
+0 - 90\% & 10 - 15 &  \textbf{357 $\pm$ 22}  &    \textbf{  354 $\pm$ 22 } \\ 
+0 - 90\% & 15 - 20 &   \textbf{263 $\pm$ 16} &    \textbf{  271 $\pm$ 18 } \\ 
+0 - 90\% & 20 - 50 &  \textbf{333 $\pm$ 20}  &   \textbf{  348 $\pm$ 19 } \\ 
+0 - 30\% & 10 - 50 &   \textbf{648 $\pm$ 28} &   \textbf{  656 $\pm$ 28 } \\ 
+30 - 90\% & 10 - 50 & \textbf{ 317 $\pm$ 19 }  &   \textbf{  328 $\pm$ 19 } \\ 
+0 - 90\% & 10 - 50 &  \textbf{967 $\pm$ 35} &    \textbf{ 970 $\pm$ 33 } \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\clearpage
+
+Subsequently, we are able to get the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ in Figure \ref{fig:EffDisBootstrap}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_90_7-10_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_90_10-15_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_90_15-20_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_90_20-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_30_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_30_90_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrapEff/EffDis_0_90_10-50_Assym.png}  
+\caption{The efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ distributions of the data-like randomly resampled datasets for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 30\%, 30 - 90\%, and 0 - 90\% are shown respectfully above.} 
+\label{fig:EffDisBootstrap} 
+\end{center}
+\end{figure}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The RMS/Mean and the asymmetric up and down statistical uncertainties of the efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$ distribution are summarized below.}
+\vspace{1em}
+\label{tab:EffUncReCal}
+  \begin{tabular}{| c | c |c | c| c|}
+    \hline
+     Centrality &  \pt (GeV/c) & RMS/Mean  & Stat. Up (+) & Stat Down (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 11.8\%  &  \textbf{11.4\% }  &  \textbf{11.4\% }   \\ 
+0 - 90\% & 10 - 15 & 4.39\% & \textbf{4.42	\% }  & \textbf{4.20\%}  \\ 
+0 - 90\% & 15 - 20 & 1.60\% & \textbf{1.47\% }  & \textbf{1.62\%}   \\ 
+0 - 90\% & 20 - 50 & 1.63\% & \textbf{1.57\% }  &  \textbf{1.58\%}   \\ 
+0 - 30\% & 10 - 50 & 4.86\% &  \textbf{4.49\% }  &  \textbf{4.63\% } \\ 
+30 - 90\% & 10 - 50 & 5.61\% & \textbf{5.59\% }  &  \textbf{5.63\% }  \\ 
+0 - 90\% & 10 - 50 & 4.01\% & \textbf{3.71\% }  & \textbf{3.73\% }  \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+
+
+\clearpage
+
+
+Then, our corrected yield distributions are shown in \ref{fig:CorrStatClosure} below
+
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_90_7-10_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_90_10-15_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_90_15-20_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_90_20-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_90_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_0_30_10-50_Assym.png}
+\includegraphics[width= 0.32\textwidth]{Plots/ClosureTest/DataBoostrap/CorrYield_30_90_10-50_Assym.png}  
+\caption{The corrected yield distributions of the data-like randomly resampled datasets for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, and 20 - 50 GeV/c as well as 0 - 90\%, 0 - 30\%, and 30 - 90\% are shown respectfully above.} 
+\label{fig:CorrStatClosure} 
+\end{center}
+\end{figure}
+
+
+Finally, we calculate the RMS/Mean and the asymmetric up and down statistical uncertainties of the corrected yield distribution above for each \pt and centrality and quote them as our statistical uncertainties. The procedure of calculating the asymmetric up and down statistical uncertainties is described in the $B_s$ AN \cite{AN-19-055}. Our results are summarized on the table \ref{tab:StatUncReCal} below: 
+
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The RMS/Mean and the asymmetric up and down statistical uncertainties of the corrected yield distribution are summarized below.}
+\vspace{1em}
+\label{tab:StatUncReCal}
+  \begin{tabular}{| c | c |c | c| c|}
+    \hline
+     Centrality &  \pt (GeV/c) & RMS/Mean & Stat. Up (+) & Stat Down (-) \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 &  16.4\%  &  \textbf{15.8\%}  & \textbf{15.1\%}   \\ 
+0 - 90\% & 10 - 15 &  7.70\%   &  \textbf{7.60\%}  & \textbf{8.77\%}   \\ 
+0 - 90\% & 15 - 20 &   6.72\%   &  \textbf{6.00\%}  & \textbf{6.66\%}   \\ 
+0 - 90\% & 20 - 50 &  6.19\%    &  \textbf{6.64\%}  & \textbf{5.49\%}   \\ 
+0 - 30\% & 10 - 50 &   6.52\% &  \textbf{5.81\%}  & \textbf{5.54\%}   \\ 
+30 - 90\% & 10 - 50 & 8.10\%  &  \textbf{8.22\%}  & \textbf{6.97\%}   \\ 
+0 - 90\% & 10 - 50 & 5.49\%  &  \textbf{5.06\%}  & \textbf{4.54\%}    \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Here, we conclude our closure test. We will quote the results from \tab{tab:StatUncReCal} as the statistical uncertainties of our corrected yield and \ref{tab:SystBias} as the systematic uncertainties due to the bias of efficiency correction for our data analysis. We have included them in our final $B^+$ results. We finally attach the summary of comparison among the raw yield, efficiency correction factor, and corrected yield in Table~\ref{tab:ComparisonError} below
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The statistical uncertainties on the $B^+$ raw yield, efficiency correction factor $\langle \frac{1}{\alpha \times \epsilon} \rangle$, and corrected yield distribution are summarized below for comparison.}
+\vspace{1em}
+\label{tab:ComparisonError}
+  \begin{tabular}{| c | c |c | c| c|c|c|}
+    \hline
+     Centrality &  \pt (GeV/c) & Raw Yield & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ Err (+) & $\langle \frac{1}{\alpha \times \epsilon} \rangle$ Err (-) & Corr. Err (+) &  Corr. Yield Err (-)  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10    &      11.9\%     &  11.4\%      & 11.4\%      &  15.8\%    &  15.1\%     \\ 
+0 - 90\% & 10 - 15   &       5.6\%       &  3.81\%    & 3.88\%     & 4.10\%       & 7.95\%    \\ 
+0 - 90\% & 15 - 20   &       6.6\%        &  1.46\%     & 1.47\%      & 6.54\%       & 6.50\%      \\ 
+0 - 90\% & 20 - 50   &      	5.1\%        &  1.59\%     & 1.56\%     &  6.90\%       &  5.26\%   \\ 
+0 - 30\% & 10 - 50   &      4.2\%        &  4.49\%    & 4.63\%     &  5.81\%      &  5.54\%    \\ 
+30 - 90\% & 10 - 50  &      5.9\%       &  4.90\%    & 5.28\%      &  6.71\%     &  7.06\%   \\ 
+0 - 90\% & 10 - 50   &      3.4\%        &  3.71\%    & 3.73\%      & 5.06\%      & 4.54\%     \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+\clearpage

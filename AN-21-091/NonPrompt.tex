@@ -1,0 +1,35 @@
+\section{Non-prompt $\Jpsi$ background}
+\label{sec:nonprompt}
+In the \Bplus invariant mass spectrum, there are potential background feed-down sources coming from other B meson decays that can form peaking structures in the region of interest, and need to be properly subtracted in order not to bias the yield extraction procedure. In order to estimate these components, we processed the inclusive B meson MC sample with the nominal $\Bplus$ channel workflow, and vetoed the candidates that are matched to a genuine $\Bplus$ signal. The resulting B candidate mass spectrum in the inclusive \pt range (5-100 GeV/c) is shown in Fig.~\ref{fig:npBplus} for PbPb MC samples. \\
+It is clear that these sources create a peaking structure in the region of $\rm M_{inv}<$5.20 GeV/c$^2$. This structure can be nicely fit with an error function as done previously in B proton-proton analyses~\cite{CMS-PAS-BPH-15-004}. In addition, there is a minor peak on the right shoulder ($\approx$5.34 GeV/c$^2$) of the nominal signal ($\approx$5.28 GeV/c$^2$), and this can be fit with an Gaussian function. There is additional combinatorial background which is fitted with a linear function. This contribution is absorbed in the total combinatorial background of our nominal channel of the main analysis. As described in details in Sec.~\ref{sec:sigextract}, the shape of the Non-prompt function is used as template in the fit extraction procedure. \\
+Further MC studies were done in order to identify the different channels that give rise to the non-prompt peaking structure in the \Bplus invariant mass spectrum. Few main processes were identified:
+
+\begin{itemize}
+\item 4-body $\Bplus$ decays which occur via resonant decay channels e.g. $\Bplus\rightarrow\Jpsi~K^{*}(892)^{+}$.
+      In these cases, we distinguish the kaons coming from the $K^{*}(892)^{+}$ decays as coming from a signal $\Bplus\rightarrow\Jpsi~K^+$ decay. 
+\item 4-body $\Bzero$ decays channels e.g. $\Bzero\rightarrow\Jpsi~K^{*}(892)^{0}$.
+\item $\Bplus\rightarrow\Jpsi~\pi^+$ decays in which we misidentified the $\pi^+$ as a $K^+$.
+\end{itemize}
+
+The different contributions in PbPb are presented in Fig.~\ref{fig:Bplus_peaking_PbPb}.
+The contribution from $\Bplus\rightarrow\Jpsi~\pi$ clearly form a peaking structure on the right shoulder of the nominal decay channel \Bplusdecay. However, the overall magnitude of this component is tiny compared to the other two sources, and negligible compared to the nominal signal. As a consequence, we can barely see the contribution of this peaking structure in the invariant mass plot of \Bplus nominal channel.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/Nonprompt/plotsPbPb/fitNP_PbPb.pdf}
+\caption{\Bplus candidate mass spectrum obtained in inclusive B meson MC production after vetoing the contribution of genuine \Bplus signal candidates in PbPb.}
+\label{fig:npBplus}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.32\textwidth]{Plots/Nonprompt/plotsPbPb/BmassBpPi.pdf}
+\includegraphics[width= 0.32\textwidth]{Plots/Nonprompt/plotsPbPb/BmassBpK_tkmatch.pdf}
+\includegraphics[width= 0.32\textwidth]{Plots/Nonprompt/plotsPbPb/BmassB0K_tkmatch.pdf}
+\caption{Peaking background contribution from $\Bplus\rightarrow\Jpsi~\pi$ and from K resonant decay channels of $\Bzero$ and $\Bplus$ in PbPb MC.}
+\label{fig:Bplus_peaking_PbPb}
+\end{center}
+\end{figure}
+
+\clearpage

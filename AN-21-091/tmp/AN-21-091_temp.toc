@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Datasets and Event Selections}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Datasets}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}MC samples}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}MC reweighting}{3}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {3}\ensuremath {\mathrm {B}^{+}}\xspace meson reconstruction}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Muon and \ensuremath {\mathrm {J}\hspace {-.08em}/\hspace {-.14em}\psi }\xspace selection}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Track selection}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}\ensuremath {\mathrm {B}^{+}}\xspace meson selection}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Cut optimization}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fiducial region}{16}{subsection.4.2}%
+\contentsline {section}{\numberline {5}MC-Data Comparison}{18}{section.5}%
+\contentsline {subsection}{\numberline {5.1}B candidate properties comparison between data and MC}{18}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Signal Extraction}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Closure test of the fitting procedure}{23}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Acceptance and Efficiency}{25}{section.7}%
+\contentsline {section}{\numberline {8}Closure Test of the $B^{+}$ Corrected Yield}{26}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Raw Yield Closure}{26}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Efficiency Closure}{26}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Corrected Yield Closure}{26}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Results}{27}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\ensuremath {p_{\mathrm {T}}}\xspace differential corrected yield in pp collisions at 5.02 TeV}{27}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Rapidity differential corrected yield in pp collisions at 5.02 TeV}{28}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Multiplicity differential corrected yield in pp collisions at 5.02 TeV}{28}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}$B^{0}_{s}/B^{+}$ ratio as a function of $p_T$ in pp collisions at 5.02 TeV}{28}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}$B^{0}_{s}/B^{+}$ ratio as a function of $y$ in pp collisions at 5.02 TeV}{28}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}$B^{0}_{s}/B^{+}$ ratio as a function of Multiplicity in pp collisions at 5.02 TeV}{28}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}B-meson $R_{AA}$ vs $p_T$ at 5.02 TeV}{28}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}B-meson $R_{AA}$ vs $y$ at 5.02 TeV}{28}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}B-meson $R_{AA}$ vs Multiplicity at 5.02 TeV}{28}{subsection.9.9}%
+\contentsline {section}{\numberline {10}Systematic uncertainties}{29}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Summary table}{29}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}$T_{AA}$ and $N_{MB}$}{31}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Branching ratio}{31}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Tracking efficiency}{31}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Muon efficiency: Tag and Probe}{31}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}MC-Data Discrepancy}{34}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}\ensuremath {p_{\mathrm {T}}}\xspace shape: Bpt weight}{35}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}MC stats: Toy MC study}{37}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Signal extraction: PDF variation}{38}{subsection.10.9}%
+\contentsline {section}{\numberline {A}Non-prompt $\ensuremath {\mathrm {J}\hspace {-.08em}/\hspace {-.14em}\psi }\xspace $ background}{39}{appendix.A}%

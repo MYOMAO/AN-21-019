@@ -1,0 +1,197 @@
+\section {\Bplus meson selection}
+\label{sec:Bsel}
+The selections described in the previous section (so-called prefilter) are not sufficient to distinguish signal from background, especially at low \pt range where the entire spectrum is dominated by combinatorial backgrounds which arises from random combination of muons and tracks. In order to see clear signals and reduce the uncertainties, several additional selection on the \Bplus decay topology were then applied.
+A cut optimization procedure was performed to decide the cut values. For more details, see Section ~\ref{sec:CutOpt}.
+
+\subsection{Cut optimization}
+\label{sec:CutOpt}
+The goal of the optimization procedure is to maximize the statistical significance of the signals while keeping reasonably high signal efficiencies. The optimal cut that minimizes background efficiency for a specific signal efficiency is obtained by the TMVA(Toolkit for Multivariate Data Analysis with ROOT)~\cite{Hocker:2007ht}. \\
+Boosted Decision Tree(BDT) is chosen to be the classification method in TMVA training for \Bplus. In addition, for comparison the CutsGA (Genetic algorithm-based rectangular cut decision) is also examined. We found that in the lowest \pt bin(5-7GeV), the prefilter itself does not filter out background sufficiently, which limits the performance of BDT method. In order to enhance the performance, we first found the optimal rectangular cuts from CutsGA method in this \pt bin. After then we used normalized decay length(dls3D) and cos$\theta$(2D angle between $B^{+}$ meson displacement and $B^{+}$ meson momentum in transverse plane) cuts (dls3D$>$12.0 && cos$\theta$ $>$0.95; this is slightly looser than the optimal rectangular cuts, in order not to reject possible signals that BDT can reconstruct but CutsGA cannot) in our prefilter for BDT training. This enhanced the raw yield extraction and reduced the yield error. We also applied this strategy to the \pt 7-10 GeV/c bin with the selection (dls3D$>$9.0 && cos$\theta$ $>$0.92) to enhance the performance. For other \pt bins, we just used the original prefilter for our BDT training. \\
+The reconstructed candidates matched to the generated signal in MC sample are used as signal when training, while the reconstructed candidates in sideband (0.15 GeV/c$^2$ $<$ $|M_{B^{+}}-M_{B^{+}}^{PDG}|$ $<$ 0.25 GeV/c$^2$) of data sample are used as background.
+
+The kinematic variable distributions of daughter tracks and $B^+$ mesons before and after applying the prefilter is shown on Figure~\ref{fig:KinematicsDisMuon1},~\ref{fig:KinematicsDisMuon2},~\ref{fig:KinematicsDisKaon}, ~\ref{fig:KinematicsDisBP}
+
+\clearpage
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1eta_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1phi_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1phi_1.png}
+\caption{The normalized $J/\psi$ $\mu^-$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
+\label{fig:KinematicsDisMuon1}
+\end{center}
+\end{figure}
+
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2eta_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2phi_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2phi_1.png}
+\caption{The normalized $J/\psi$ $\mu^+$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
+\label{fig:KinematicsDisMuon2}
+\end{center}
+\end{figure}
+
+
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png}
+\caption{The normalized $K^+$ track, muons, and $K^+$ track kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
+\label{fig:KinematicsDisKaon}
+\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bpt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bpt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/By_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/By_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bphi_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bphi_1.png}
+\caption{The normalized  $B^+$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
+\label{fig:KinematicsDisBP}
+\end{center}
+\end{figure}
+\clearpage
+
+We can see that the prefilter cuts do not significantly change the distribution of the kinematic variable shapes and create potential bias. Therefore, these show that our prefilter cut is valid to use. 
+
+Then, we use the following six selection variables trained for PbPb:
+\begin{itemize}
+\item dls3D: Normalized decay length (SV PV distance), the distance between primary and $B^{+}$ decay (secondary) vertex normalized by its uncertainty
+\item Balpha: The angle between $B^{+}$ meson displacement and $B^{+}$ meson momentum in 3D
+\item Btrk1Pt: Track $p_{T}$, the transverse momentum of the track
+\item Bchi2cl: $\chi2$ probability, the $\chi2$ probability of the secondary decay vertex fitting
+\item Btrk1Eta: The absolute value of the track pseudorapidity
+\item Btrk1Dxysig: Normalized track Dxy, the transverse distance between track and the primary vertex normalized by its uncertainty
+\end{itemize}
+
+The BDT training setup for all \pt bins are as follows: NTree = 850, MinNodeSize=2.5\%, MaxDepth=3, BoostType=AdaBoost, AdaBoostBeta=0.5, UseBaggedBoost, BaggedSampleFraction=0.5, SeparationType=GiniIndex, nCuts=20
+
+The optimal BDT cut values are defined as the numbers which maximize the figure of merit(statistical significance) $S/\sqrt{S+B}$. Here, $S$ is the number of signal in signal region after applying optimal cuts, while $B$ is the number of background in signal region after applying optimal cuts. Signal region is defined as $|M_{B^{+}}-M_{B^{+}}^{PDG}|$ $<$ 0.08 GeV/c$^2$. For the lowest \pt bin, we used a new figure of merit $S/\sqrt{\gamma_{quantile}(\alpha/2,S+B,1)}$ (where, $\alpha$ is chosen to be 1-0.6827) that is suitable for this low signal/background ratio. 
+
+\begin{itemize}
+\item $S$ = $S'$ $\times$ (signal optimal cut efficiency), where $S'$ is the number of signal in signal region before applying optimal cuts.
+\item $B$ = $B'$ $\times$ (background optimal cut efficiency), where $B'$ is the number of background in signal region before applying optimal cuts.
+\end{itemize}
+
+$S'$ and $B'$ are calculated by fitting the invariant mass plot with prefilter selection, with the same functional form used in the main analysis. However, at the 4 lowest \pt bins, the prefilter is not sufficient to reveal the signal. In those cases, $S'$ is calculated by the expected number of signal from FONLL pp cross-section calculation multiplied by pre-filters efficiency, acceptance from MC, and expected \raa value from previous measurement ~\cite{CMS-PAS-HIN-16-011}. \\
+Fig.~\ref{fig:tmvaPbPbCorr1} and Fig.~\ref{fig:tmvaPbPbCorr8} show the correlation matrices of the training, in the lowest and highest \pt bin, respectively.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/CorrelationMatrixB1.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/CorrelationMatrixS1.pdf}
+\caption{TMVA training correlation matrices of PbPb in \pt 5 - 7 GeV/c.}
+\label{fig:tmvaPbPbCorr1}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/CorrelationMatrixB8.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/CorrelationMatrixS8.pdf}
+\caption{TMVA training correlation matrices of PbPb in \pt 50 - 60 GeV/c.}
+\label{fig:tmvaPbPbCorr8}
+\end{center}
+\end{figure}
+
+\clearpage
+Fig.~\ref{fig:tmvaPbPbOvertrain18} shows the overtraining check in the lowest and the highest \pt bin. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/overtrain_BDT1.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/overtrain_BDT8.pdf}
+\caption{TMVA overtraining check of PbPb in \pt 5-7 and 50 - 100 GeV/c, respectively}
+\label{fig:tmvaPbPbOvertrain18}
+\end{center}
+\end{figure}
+
+Fig.~\ref{fig:tmvaPbPbvar4} shows the variable distribution comparison between signal and background, and the statistical significance curve in \pt 15-20GeV. Some variables show prominetly distinct distribution between signal and background. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.90\textwidth]{Plots/CutOpt/variables_id_c1_4.pdf}
+\caption{TMVA training variable distribution of PbPb in \pt 15 - 20 GeV/c.}
+\label{fig:tmvaPbPbvar4}
+\end{center}
+\end{figure}
+
+\clearpage
+The maximum significance point is selected as our nominal working point, as shown in Fig.~\ref{fig:tmvaPbPbsig4}. \\
+Tab.~\ref{tab:cutoptPbPb} shows the summary of the optimal selection criteria in different $p_{T}$ intervals. \\
+All the other TMVA performance plots not listed in this section are on Appendix.~\ref{sec:tmvaresults}. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/mvaeffs_BDT4.pdf}
+\caption{TMVA significance curve of PbPb in \pt 15 - 20 GeV/c.}
+\label{fig:tmvaPbPbsig4}
+\end{center}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{$p_{T}$ (GeV/c)} & \textbf{5-7} & \textbf{7-10} & \textbf{10-15} & \textbf{15-20} & \textbf{20-30} & \textbf{30-40} & \textbf{40-50} & \textbf{50-60} \\
+\hline
+BDT & $>$0.02 & $>$0.03 & $>$0.09 & $>$0.07 & $>$0.10 & $>$0.16 & $>$0.20 & $>$0.27 \\
+\hline
+\end{tabular}
+\caption{Summary table of selection criteria in different $p_{T}$ intervals in PbPb collisions}
+\label{tab:cutoptPbPb}
+\end{table}
+
+\clearpage
+
+\subsection{Fiducial region}
+As we go to low \Bplus \pt where the daughter particles also have predominantly low \pt, it becomes improbable to detect muons in low rapidity ranges due to the limited acceptance of the muons. In other words, the signal and background candidates of \Bplus are largely confined to forward rapidity region at low \Bplus \pt. Fig~\ref{fig:2DBeforeCut} shows theoretically possible inverse of acceptance, selection efficiency, and total efficiency vs $B^{+}$ \pt and $|y|$ 2D distribution with only single muon and track selections but without BDT selections. 
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.33\textwidth]{Plots/2DBeforeCut/Acc_0_90.pdf}
+\includegraphics[width=0.33\textwidth]{Plots/2DBeforeCut/Sel_0_90.pdf}
+\includegraphics[width=0.33\textwidth]{Plots/2DBeforeCut/Eff_0_90.pdf}
+\caption{The two dimensional maps of the inverse of the acceptance efficiency (left), selection efficiency (middle), and total efficiency (right) vs \Bplus \pt and rapidity in MC for the centrality range of 0 - 90\% without applying BDT cuts are shown above.}
+\label{fig:2DBeforeCut}
+\end{center}
+\end{figure}
+
+
+Next, we quantitatively examine the 2D maps of candidate distributions in both data and MC after applying the optimal BDT selections, which are shown in Fig.~\ref{fig:2Dmap}. \\
+It is found that \Bplus acceptance is better than \Bs, presumably because of less number of tracks needed to reconstruct B meson, which allows broader phase space that the daughter particles can reside. Since this analysis is mainly for the comparison with \Bs, we adopted more strict fiducial region ($5<$ $p_{T}$ $<10$GeV, 1.5$<$ $|y_{lab}|$ $<$2.4) that is defined using \Bs 2D map. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/invEff/hMass2D_Cent0-90.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/invEff/hMass2D_mc_hyperfine_Cent0-90.pdf}
+\caption{\Bplus \pt and rapidity two dimensional map of candidates that passed the full analysis cut in data (Left) and MC (right).}
+\label{fig:2Dmap}
+\end{center}
+\end{figure}
+
+\clearpage

@@ -1,0 +1,104 @@
+\section{MC-Data Comparison}
+\label{sec:mcdatacomparison}
+\subsection{B candidate properties comparison between data and MC}
+Potential differences between Data and MC distributions of the variables used for the selection of the $\Bplus$ signal, can introduce biases in the efficiency corrections. In this section, the distributions of the $\Bplus$ selection variables in PbPb data and MC samples are compared. \\
+
+The Splot method is used for our analysis. This is a likelihood-based method by which we reweight the data using the unbinned fit result. The weights are added to the dataset based on model and yield extraction variables. Each event has two weights: probability of belonging to the signal given its mass, probability of belonging to the background given its mass. The Splot class gives us the distributions of our variables for a given species (signal or background). The advantage of using this method is that we use the full dataset for the comparison in contrast to the sideband subtraction method where one should select the investigation range of signal and background. Furthermore, we use likelihood to describe events' behavior in contrast to the potential misidentification of signal events in background region which might occur in sideband subtraction method. For more details on general description of Splot method applied to this analysis, please refer to the section 4 and 5 of the analysis note CMS AN-19-219(~\cite{AN-19-219}). \\
+
+To show the correlations between the BDT variables to the $B^+$ invariant mass and validate our Splot techniques approach, we first make the correlation matrices for BDT variables vs $B^+$ invariant mass Bmass for data and MC as follows in Figure~\ref{fig:CorrMatrice_BDT}:
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/CorrelationMatrixB.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/CorrelationMatrixS.pdf}
+\caption{The correlation matrices in data (left) and MC (right) are shown above.}
+\label{fig:CorrMatrice_BDT}
+\end{center}
+\end{figure}
+
+Fig.~\ref{fig:Splot_BDT} shows the data and MC comparison results based on Splot method. Here, we focus on BDT values that are directly used in our signal extraction and related to MC distribution validation, rather than the variables themselves used in BDT training. In a wide ranges of BDT, the two distributions show good agreement. We only focus on the region where BDT is greater than the working point and is smaller than the maximum value that candidates have.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_5_7_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_7_10_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_10_15_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_15_20_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_20_30_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_30_40_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_40_50_mc_validation_Bu.pdf}
+\includegraphics[width=0.45\textwidth]{Plots/SPlots/BDT_pt_50_60_mc_validation_Bu.pdf}
+\caption{Comparison of \Bplus BDT distribution in data and MC using Splot method.}
+\label{fig:Splot_BDT}
+\end{center}
+\end{figure}
+
+
+\iffalse
+
+The sideband subtraction method is a widespread technique used to extract signal distributions from a sample that contains background components. In general, the data sample is split into one or more background regions (so-called, sideband) and one signal region, by using discrimination variables which depends on the analysis undertaken. The method assumes that there is no signal outside the signal region, i.e. all the events which lie in the background regions are background-like. As a consequence, it is reasonable to assume the behavior of the events outside the signal region to be similar to the behaviour of the background events inside the signal region. Under this assumption, by performing an interpolation of the background regions that surround the signal region, one is then able to estimate the amount of background in the signal region. \\
+Finally, it is enough to subtract the background estimation from the total data sample in the signal region to obtain the signal distribution. In addition, MC gen-metched B signal candidates (i.e., match to generator level signal $\Bplus$) are also shown in corresponding variables and compared to the data and MC sideband subtracted events. \\
+In this analysis, we use the reconstructed mass of the involved \PB meson candidate as the discriminating variable. We have checked the background in the sideband defined as $0.15<$ $|M_{B^+}}-M_{B^+}^{PDG}|$ $<0.25$ (GeV/c$^2$) show desirable behavior (linear), as shown in Fig.~\ref{fig:DataMCComparisonPbPb_sideband}. This justifies the interpolation technique described above. On the other hand, The signal region is chosen to be $|M_{B^+}}-M_{B^+}^{PDG}|$ $<0.08$ (GeV/c$^2$), and their distribution is distinguishable from background in sideband.
+In order to extract the signal distributions, the \Bplus yields were extracted as a function of different selection variables using the standard selection criteria in the main results. The distributions were then normalized to unity, to allow a meaningful comparison between data and MC.
+Most of the results shown in Fig.~\ref{fig:DataMCComparisonPbPb1}, ~\ref{fig:DataMCComparisonPbPb2}, and ~\ref{fig:DataMCComparisonPbPb3} demonstrate good agreement within uncertainties over a wide range of \pt and a variety of variable.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Plots/Results/plotFitsComp/MassPlot.png}
+\caption{Sideband subtraction scheme for $\Bplus$ in PbPb.}
+\label{fig:DataMCComparisonPbPb_sideband}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullRatio_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBd0Err_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBsvpvDistance_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBalpha_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBchi2cl_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBmu1Eta_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBmu2Eta_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBmu1Pt_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBmu2Pt_PbPb_0.pdf}
+\caption{
+Comparison of various \Bplus meson variables between data and MC in PbPb analysis in \pt 5-100 GeV/c (1).}
+\label{fig:DataMCComparisonPbPb1}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Dxy1Sig_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1DxyError1_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Dxy1_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Dz1_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Dz1Sig_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1DzSig_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Eta_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Pt_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullPVz_PbPb_0.pdf}
+\caption{
+Comparison of various \Bplus meson variables between data and MC in PbPb analysis in \pt 5-100 GeV/c (2).}
+\label{fig:DataMCComparisonPbPb2}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1DzSig_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Eta_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Pt_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBtrk1Y_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBvtxX_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBvtxY_PbPb_0.pdf}
+\includegraphics[width=0.32\textwidth]{Plots/Results/plotFitsComp/RatioPlotsPullBy_PbPb_0.pdf}
+\caption{
+Comparison of various \Bplus meson variables between data and MC in PbPb analysis in \pt 5-100 GeV/c. (3)}
+\label{fig:DataMCComparisonPbPb3}
+\end{center}
+\end{figure}
+
+\fi
+
+\clearpage

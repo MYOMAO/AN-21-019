@@ -1,0 +1,210 @@
+\section {Systematic uncertainties}
+\label{sec:systematic}
+
+\subsection{Summary table}
+Below are the summary tables of various systematic uncertainties. For detailed description of each systematics source, please refer to the subsequent subsections.
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each factor in $B^+$ PbPb analysis for corrected yield vs \pt. All the values are shown in percentage.}
+\vspace{1em}
+\label{tab:sys_sum_Bu_PbPb}
+  \begin{tabular}{ |c | c | c | c | c|}
+    \hline
+    Factors & (7,10) & (10,15) & (15,20) & (20,50)  \\
+    \hline
+    Hadron tracking efficiency & 5\% & 5\% & 5\% & 5\% \\
+    Data-MC Discrepancy  & 4.17\%  & 15.25\%  & 3.01\% & 1.65\%  \\
+	\pt shape &  0.162\% & 0.211\%  &  0.010\%& 0.008\%\\
+    PDF variation background & 4.46\%  & 2.67\% & 2.74\%  & 2.36\% \\
+    PDF variation signal & 0.117\%  & 0.546\%  & 0.576\% & 1.03\% \\
+ TnP Systematics & 6.12\% & 9.36\% & 3.28\% & 0.34\% \\
+	MC stat. & 9.22\% &  3.36\%  & 1.92\% & 1.35\% \\
+Total  & 13.59\% &  19.08\% &  7.51\% & 6.02\%  \\
+
+    \hline
+    \hline
+      $\rm{N_{MB}} $ events & 1.26\% & 1.26\% & 1.26\% & 1.26\% \\
+    $T_{AA}$ & 2.2\% & 2.2\% & 2.2\% & 2.2\% \\
+    Branching fractions & 2.9\% & 2.9\% & 2.9\%& 2.9\%\\
+   Global Systematics & 3.85\% & 3.85\% & 3.85\%& 3.85\%\\  
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary of systematic uncertainties from each factor in $B^+$ PbPb analysis for corrected yield vs centrality. All the values are shown in percentage.}
+\vspace{1em}
+\label{tab:sys_sum_Bu_PbPbCent}
+  \begin{tabular}{| c | c | c | c| }
+    \hline
+    Factors &   0 - 30 \% & 30 \% - 90\% & 0 - 90 \% \\
+    \hline
+    Hadron tracking efficiency  & 5\% & 5\% & 5\% \\
+    Data-MC Discrepancy   &  13.28\% & 8.49\% & 11.51\%  \\
+	\pt shape  & 0.170\%  &  0.106\%& 0.154\%\\
+    PDF variation background & 0.412\% & 1.13\% & 0.427\%  \\
+    PDF variation signal & 2.50\% & 2.57\% & 2.60\%  \\
+TnP Systematics  & 7.20\% & 7.85\% & 7.43\% \\
+	MC stat. & 3.37\% & 2.26\%  & 2.49\%  \\
+    $T_{AA}$ & 2.0\% & 3.6\% & 2.2\%\\	
+      $\rm{N_{MB}} $ events & 1.26\% & 1.26\% & 1.26\% \\
+    Total  & 16.63\%  & 13.65\% & 15.24\% \\
+
+    \hline
+    \hline
+    Branching fractions &  2.92\%  &  2.92\%   &  2.92\% \\
+      Global Systematics +) & 2.92\% & 2.92\% &  2.92\%\\ 
+      Global Systematics -) & 2.92\% & 2.92\% &  2.92\%\\  
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+
+
+We also plot the summary plots for the table able as follows in Fig ~\ref{fig:SummaryTable}
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.50\textwidth]{Plots/Sys/Summary/BpPtSyst.png}
+\includegraphics[width= 0.50\textwidth]{Plots/Sys/Summary/BpCentSyst.png}
+\includegraphics[width= 0.50\textwidth]{Plots/Sys/Summary/BpIncSyst.png}
+\caption{The plots summarizing the systematic uncertainties for \pt bins and centrality bins are shown above.}
+\label{fig:SummaryTable}
+\end{center}
+\end{figure}
+
+
+\clearpage
+%\subsection{Luminosity}
+%In PbPb collisions, the uncertainty associated to the counting of the number of minimum-bias events used to normalised the corrected dN/d$\pt$ events is not ready for now. We will refer from other sources when available.
+
+\subsection{$T_{AA}$ and $N_{MB}$}
+We use the same uncertainties for $T_{AA}$ (Nuclear overlap function) and $N_{MB}$ (Number of MinBias events) listed on the $\B_{s}$ AN ~\cite{AN-19-055}.
+
+\subsection{Branching ratio}
+The systematic uncertainty on the branching ratio of the decay \Bplusdecay, with \Jpsidecay, is calculated by adding in quadrature the uncertainties on each sub-channel. The resulting uncertainty for the full decay chain is 2.8$\%$~\cite{PDG:2018}. This is global to all \pt and centrality selections in our analysis.
+
+\subsection{Tracking efficiency}
+The current standard value of tracking efficiency uncertainty for one track is 5$\%$ for now, suggested in the link 
+\url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/HITracking2018PbPb}. \\
+This is global to all \pt and centrality selections in our analysis. This number may be updated later.
+%The systematic uncertainties related to tracking efficiency or track reconstruction can be evaluated based on the method described in the D meson analysis~\cite{CMS-PAS-HIN-16-001}. The strategy was to reconstruct the $D^{*}$ meson in both 3 and 5 prong decay channel and by correcting for the BR difference, the tracking efficiency to be obtained in data. This will be studied afterwards.
+%The study was perfomed using 2015 5.02TeV pp collision data. The resulting systematic uncertainty in the pp case was found to be 4$\%$ per track. In PbPb, since a similar study is not feasible due to the larger combinatorial background, a more conservative uncertainty of 5$\%$ per track was considered.
+
+\subsection{Muon efficiency: Tag and Probe}
+
+\clearpage
+
+The difference between the nominal and varied values are quoted as our systematics, and they are shown in Figure \ref{fig:SystTnpPt} and Figure \ref{fig:SystTnPCent} and Table.~\ref{tab:sys_sum_Bu_PbPb} and Table.~\ref{tab:sys_sum_Bu_PbPbCent}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.52\textwidth]{Plots/Sys/SysSplot/total/SystTnPRatio_4Bins_0_90.png}
+\caption{The upper bound and lower bound systematic uncertainties in $\langle \frac{1}{\alpha \times \epsilon} \rangle$ vs \pt with total tag and probe correction are shown above.}
+\label{fig:SystTnpPt}
+\end{figure}
+
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysSplot/total/SystTnPRatio_1Bins_0_30.png}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysSplot/total/SystTnPRatio_1Bins_30_90.png}
+\includegraphics[width=0.32\textwidth]{Plots/Sys/SysSplot/total/SystTnPRatio_1Bins_0_90.png}
+\caption{The upper bound and lower bound systematic uncertainties in $\langle \frac{1}{\alpha \times \epsilon} \rangle$ vs \pt with total tag and probe correction are shown above.}
+\label{fig:SystTnPCent}
+\end{figure}
+
+
+According to the studies, we calculate the systematic uncertainties due to tag and probe scale factor. Table \ref{tab:SFVpt} and table \ref{tab:SFVCent} summarize the tag and probe systematic uncertainties results for \pt and centrality from our studies 
+
+
+
+However, according to the Muon POG, due to the issues in the trigger tag and probe scale factor, we have also conduct the difference between the efficiencies with and without any tag and probe scale factor correction applied. Our results for \pt and centrality are shown in Figure \ref{fig:TnPComp2}:
+
+\clearpage
+
+
+The final summary of tag and probe systematic results are shown on Table ~\ref{tab:SFVpt2} and ~\ref{tab:SFVcent2}.
+
+
+\clearpage
+
+
+
+
+
+
+
+
+
+\subsection{MC-Data Discrepancy}
+
+
+
+
+
+
+\clearpage
+
+\subsection{\pt shape: Bpt weight}
+The potential difference in \pt distributions in data and MC entails difference in calculation of efficiency correction. The \Bplus \pt distributions of MC can be modified by Bpt weight (shown in \ref{sec:mcreweighting}) to have closer distribution with data.  The Exponential and Polynomial weight function are given by:
+
+
+\clearpage
+
+
+We quote the percentage deviation of B \pt weighted efficiency correction factor  $\langle 1/(acc \times eff) \rangle$ from the nominal without B \pt weight as the systematic uncertainties. Table.~\ref{tab:SysBpt_PbPb_ptbin} and Table.~\ref{tab:SysBpt_PbPb_centbin} show the systematics for differential \pt and inclusive \pt, respectively.
+Fig.~\ref{fig:Bptweight_PbPb_ptbin} and Fig.~\ref{fig:Bptweight_PbPb_centbin} shows the comparison plots for differential \pt and inclusive \pt, respectively. Note that the systematics are very small, thus the differences may not be distinguished prominently on the plots.
+
+
+We can see that the \pt shape systematic uncertainties on the efficiency correction have been reduced to negligible using the $\langle \frac{1}{\alpha \times \epsilon} \rangle$ approach. 
+
+\clearpage
+
+\subsection{MC stats: Toy MC study}
+The statistical uncertainties of $\langle \frac{1}{\alpha \times \epsilon} \rangle$ in MC are examined by toy MC study. From the nominal 2D map, we generated 10000 toy MCs for each rapidity & \pt bin. The toy 2D maps are then propagated to the $\langle \frac{1}{\alpha \times \epsilon} \rangle$ data-average calculation. The distribution of data-averages are drawn in each analysis \pt and centrality bin, and the RMS deviation of the distribution (supposedly Gaussian) is compared to the nominal value. The ratio between RMS and the nominal value is quoted as systematics related to MC stats. \\
+
+Table.~\ref{tab:SysMCstat_PbPb_ptbin} and Table.~\ref{tab:SysMCstat_PbPb_centbin} shows the systematics for differential \pt and inclusive \pt, respectively.
+Fig.~\ref{fig:MCstat_PbPb_ptbin} and Fig.~\ref{fig:MCstat_PbPb_centbin} shows the toy MC 1/(acceptance*efficiency) distributions for differential \pt and inclusive \pt, respectively. The blue markers are toy MC distribution, the red lines are the nominal correction factors in the main analysis.
+
+
+
+\clearpage
+
+\subsection{Signal extraction: PDF variation}
+Here we quote the numbers. For plots with more details, see Appendix.~\ref{sec:pdfvariation}. \\
+As discussed in detail in Sec.~\ref{sec:sigextract}, the central value of the raw yields were extracted using a fit function of Double Gaussian signal and exponential combinatorial background. The non-prompt component was modeled with an error function and a Gaussian peak. The systematic uncertainty on the signal extraction was evaluated by varying the functions used to model the various components:
+
+\begin{itemize}
+\item Model the signal with a triple Gaussian function.
+\item Release the constraint on the width of the signal double Gaussian (fixed in the default fit to the MC extracted values). In this case, a scaling factor (\textit{a}) between the MC widths is left as a free parameter in order to account for possible differences between the resolution in data and MC.
+\item Fixed the mean of the signal double Gaussian.
+\item Consider 1st, 2nd, and 3rd order polynomial for combinatorial background.
+\end{itemize}
+
+The detailed description on the release of the constraints on the widths of the signal double Gaussian is as follows.
+The full signal model used in the fit to data is:
+\begin{equation}
+\alpha\frac{1}{a\sigma_1\sqrt{2\pi}}e^{-\frac{1}{2}\frac{{(B_{mass}-\mu)}^2}{{(a\sigma_1)}^2}}+(1-\alpha)\frac{1}{a\sigma_2\sqrt{2\pi}}e^{-\frac{1}{2}\frac{{(B_{mass}-\mu)}^2}{{(a\sigma_2)}^2}},
+\label{eq:scal}
+\end{equation}
+where \textit{a} is the resolution scaling factor (the same for both gaussians) which describes the possible discepancy between data and MC fit, $\alpha$ is the relative proportion between the gaussians, $\sigma_1$ and $\sigma_2$ are the Gaussians' widths that are directly derived from MC fit, and $\mu$ is the mean shared by both Gaussians. \\
+In order to examine the potential systematic difference in data and MC signal fit, we are required to define a moderate variation range of the scaling factor in order not to introduce statistical fluctuations in our estimation. To achieve this, we first performed fit by letting the scaling factor float around in individual \pt bins and inclusive \pt bin (Figure~\ref{fig:scal}). The parameter values from the best fit are summarised in Table~\ref{tab:scal}. \\
+We observed that in several individual \pt bins, the deviations from unity(value for nominal fit) are sizable. In mid \pt bins (10-15-20-30GeV) where statistics are comparably large, the deviations are small. Whereas in low \pt bins(5-7-10GeV) and high \pt bins(30-40-50-60GeV) where statistics are small, the deviations are relatively large. On the other hand, the optimal scailing factors of individual \pt bins agree with that of inclusive \pt bin within a significance of 2 $\sigma$. From this observation, the sizable differences can be considered to mainly come from statistical limitation of each small \pt ranges. In addition, the 2 $\sigma$ difference can be considered to be the statistical uncertainties of scaling factors of individual \pt bins. \\
+To conclude, we can claim that the scaling factor of the inclusive \pt (\textit{a} = 1.09 $\pm$ 0.04) is a representative of the scaling factor for all \pt bins. Since that factor is a optimal fit parameter, we can take 10\% variation from the nominal value(unity) as our signal PDF variation range where the fits are good enough and has reasonably low statistical uncertainties, which is desirable for systematic uncertainties estimation. Here we used jargons increased and decreased width which refers to \textit{a} = 1.1 and 0.9, respectively.
+
+\clearpage
+
+

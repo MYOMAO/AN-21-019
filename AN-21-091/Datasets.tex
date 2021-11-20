@@ -1,0 +1,46 @@
+\section{Datasets and Event Selections}
+\label{sec:Datasets}
+\subsection{Datasets}
+
+This analysis is performed using the 2017 $\pp$ data at $\sqrtsNN$=5.02 TeV. 
+The Primary dataset, triggers, and event selections we use are the same with $\B_{s}$ analysis ongoing parallel.
+For more information, please check the corresponding sections on $\B_{s}$ analysis note (CMS AN-19-055) ~\cite{AN-19-055}.
+
+The pp dataset corresponds an integrated luminosity of 1.5 nb$^{-1}$.
+The analysis uses the dimuon particle datasets (\textit{DoubleMu} PD) for pp collisions. A complete list of the used datasets can be found in Table~\ref{tab:lumi}. The full name of the used datasets are as follows.
+
+
+
+To extract pure collision events, several offline selections are applied to each event. Events are required to have at least one reconstructed primary vertex(PV). The primary vertex is formed by two or more associated tracks and is required to have a distance from the nominal interaction region of less than 15 cm along the beam axis and less than 0.15 cm in the transverse plane.
+%For pp analysis, a scraping filter is applied.
+For pp, an additional selection of hadronic collisions is applied by requiring a coincidence of at least 3 HF calorimeter towers, with more than $3\:\GeV$ of total energy, from the HF detectors on both sides of the interaction point. In addition to HF coincidence, a cluster compatibility filter is used in PbPb analysis. Details of these filters can be found in Section 2.2 of ~\cite{AN-15-080}.
+
+\subsection{MC samples}
+\label{sec:mcsample}
+
+This section is identical to the $\B_{s}$ AN. The only difference is that we use different decay channels for reconstruction of B mesons. Here we use $\Bplusdecay$ channel.
+
+
+\subsubsection{MC reweighting}
+\label{sec:mcreweighting}
+We use dedicated method to calculate the acceptance and efficiency correction factor, by taking average over data which is described in the section.~\ref{sec:invEff}. The \pt weight we get here is not used for our nominal result, since the average over data already includes the information of data \pt shape. However, the \pt weight we obtain here is used to check the robustness of the method, and will be quoted as systematics uncertainties related with the method. \\
+The \pt spectrum of the \Bplus MC was reweighted in order to match with the data. We first evaluated the raw yield of the data and MC without any \pt weight in \pt range 5-60GeV, and normalized them. Then we took the ratio of the two to get the first \pt weight distribution. This distribution is fitted with polynomials, and we found that the 4th order polynomial have the minimum $\chi2$ among the lowest order polynomials, thus we used this as our weight function. \\
+After then, we examined the new raw yield of MC with the new weight, and compared the distributions to get a new weight functions. We iterated this twice, and we found that the first \pt weight obtained already shows good agreement with data. Thus we use that \pt weight as our weight function. \\
+In Fig.~\ref{fig:Bptweight}, the normalized distributions of data and MC raw yield and their ratios are presented. The second row (with 1st \pt weight) already shows reasonable agreement between data and MC. The red fit function on the top right plot is our nominal \pt weight function.
+
+
+pp MC simulations are also reweighted in order to match the centrality distribution in data.
+On the left panel of Figure~\ref{fig:datamc-cent}, the centrality distribution of the MC simulation (red) is compared to the one in data (blue). On the right panel, MC is given the Ncoll weight and compared to the data.
+The unit (HiBin) on the x-axis corresponds 0.5\% centrality.
+
+
+In addition to the Bpt and centrality reweighting, it is known that the MB samples used for embedding pp signal MC samples (with Cymbal5Ev8 tune) has an offset in the primary vertex z position(PVz).
+%Also, the offsets between data and MC in the X and Y directions are observed in the 2017 pp collisions. A detailed re-weighting procedure has been conducted by the HighPt group and results can be found in: \url{https://twiki.cern.ch/twiki/pub/CMS/HiHighPt2017/170426_ZVertexWeightForMC.pdf}.
+This deviation is corrected by giving PVz weight. The procedure are shown in Fig.~\ref{fig:datamc-pvz-pp}.
+The overall weight is given by the ratio between the two Gaussian functions.
+Note that this analysis is not sensitive to the absolute value of the PV position because the reconstruction of the \Bplus meson rely only on the relative distance between PV and \Bplus reconstructed vertex which is presented in the following section.
+We tried to estimate this effect by removing this re-weighting entirely and found that the difference is only 1.3\%.
+
+
+\clearpage
+

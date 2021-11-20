@@ -1,0 +1,166 @@
+\section{Signal Extraction}
+\label{sec:sigextract}
+The method and the fit model for signal and background we applied are mostly the same with $B_{s}$ AN. Please refer to the corresponing section in ~\cite{AN-19-055}. \\
+However, there is one major difference between $B_{s}$ and \Bplus yield extraction. From the inclusive \Jpsi sample study, we have found that there is a clear and sizable contribution from non-prompt \Jpsi candidates that are fed down from the \Bplus signal in our region of interest. We model this component with an error function and a Gaussian. The error function component mostly comes from 4-prong B meson decay (e.g. $\Bplus\rightarrow\Jpsi~K^{*}(892)^{+}$) that are partially reconstructed as \Bplusdecay (one track is lost) and can form peaking structures for values of the invariant mass below $\approx$5.20 GeV/c$^2$. The Gaussian contribution mainly comes from $\Bplus\rightarrow\Jpsi~\pi^{+}$ where pion is misidentifieds as kaon. \\
+The ratio of the height of error function and the Gaussian is fixed by MC simulation. However, the Gaussian component is shown to be relatively negligible compared to the error function, and even more to the signal double Gaussian of our nominal channel. More details on the non-prompt \Jpsi study can be found in Appendix Sec.~\ref{sec:nonprompt}. \\
+Note that we do not discriminate $\PBp$ from $\PBm$ in raw yield extraction process. Therefore, the invariant mass plots shown below contains both $\PBp$ and $\PBm$ signal and backgrounds. This double counting is properly canceled in the corrected yield calculation process later. \\
+
+\iffalse
+Raw yields are extracted in each $\pt$-interval via a fit procedure. The fit functions consists of the following components:
+
+\begin{itemize}
+\item \textit{A double Gaussian with same mean but different widths to model the signal component}. This was preferred to a single/triple gaussian and a Breit-Wigner function since it showed to better describe the signal shape in MC simulations.
+\item \textit{An exponential function to describe the combinatorial background}. This background component is mostly produced by the random combination of a \Jpsi candidate with tracks that are not coming from the same \Bplus decay.
+\item \textit{An error function + a Gaussian to model the non-prompt J/$\psi$ background component}. The error function component mostly comes from 4-prong B meson decay (e.g. $\Bplus\rightarrow\Jpsi~K^{*}(892)^{+}$) that are partially reconstructed as \Bplusdecay (one track is lost) and can form peaking structures for values of the invariant mass below $\approx$5.20 GeV/c$^2$. The Gaussian contribution mainly comes from $\Bplus\rightarrow\Jpsi~\pi^{+}$ where pion is misidentifieds as kaon. The ratio of areas of the error function and the Gaussian is fixed by MC simulation. However, the Gaussian component is shown to be relatively negligible compared to the error function, and even more to the signal double Gaussian of our nominal channel. More details on the non-prompt \Jpsi study can be found in Appendix Sec.~\ref{sec:nonprompt}.
+\end{itemize}
+
+A likelihood fit is used for this analysis. The results were cross-checked with the ones obtained by $\chi^2$ procedure.
+The invariant mass range considered for the fits is from 5 to 6 GeV/c$^2$. 
+The fit strategy proceeds as follows:
+
+\begin{itemize}
+\item First, a fit is performed, with a double gaussian function to the MC invariant mass distribution of the genuine \Bplus signals.
+\item The shape of the non-prompt background component is obtained using the dedicated non-prompt \Jpsi MC samples.
+\item The fit is performed to the data with the fixed the shape (widths and relative proportion of the two Gaussians) same with the Gaussians obtained from the MC fit.
+\item For systematic uncertainty check, add a free parameter (a), that is commonly multiplied to the widths of the signal Gaussians, serving as a scale factor of the resolution that parametrizes data and MC signal shape difference. However in the nominal fit, this is set to be unity, which means the widths of the data signal are set to be identical to the ones of the MC signal.
+\item The parameters of the background PDF, the mean of the signal Gaussians are the free parameters of the fit.
+\end{itemize}
+
+Unbinned fit by Roofit package available on ROOT is adopted in our signal extraction. 
+\fi
+
+In Fig.~\ref{fig:pbpbmass1} and Fig.~\ref{fig:pbpbmass2}, the invariant mass spectra and their pull distributions obtained in the \pt intervals in the PbPb analyses are presented. %In Table ~\ref{tab:chi2_tab}, the $\chi^2$ values for the fits are provided.
+
+\iffalse
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_1_Bpt_57_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_2_Bpt_710_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_3_Bpt_1015_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_4_Bpt_1520_doubly0_ntKp.pdf}
+\caption{Invariant mass distribution of $\Bplus$ candidates obtained in PbPb collisions in \pt intervals in the transverse momentum range from 5-20 GeV/c and Centrality 0-90$\%$.}
+\label{fig:pbpbmass1}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_5_Bpt_2030_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_6_Bpt_3040_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_7_Bpt_4050_doubly0_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFits/data_PbPb_8_Bpt_5060_doubly0_ntKp.pdf}
+\caption{Invariant mass distribution of $\Bplus$ candidates obtained in PbPb collisions in \pt intervals in the transverse momentum range from 20-60 GeV/c and Centrality 0-90$\%$.}
+\label{fig:pbpbmass2}
+\end{center}
+\end{figure}
+\fi
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_710_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_1015_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_1520_doubly0_0_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_2050_doubly0_0_90_ntKp.pdf}
+\caption{Invariant mass distribution of $\Bplus$ candidates obtained in PbPb collisions in \pt intervals in the transverse momentum range from 7-50 GeV/c and Centrality 0-90$\%$.}
+\label{fig:pbpbmass1}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_1050_doubly0_0_30_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_1050_doubly0_30_90_ntKp.pdf}
+\includegraphics[width= 0.45\textwidth]{Plots/Results/plotFitsBsBin/data_PbPb_1_Bpt_1050_doubly0_0_90_ntKp.pdf}
+\caption{Invariant mass distribution of $\Bplus$ candidates obtained in PbPb collisions in centrality intervals 0 - 30\%, 30 - 90\%, and 0 - 90\% in the transverse momentum range from 10 - 50 GeV/c.}
+\label{fig:pbpbmass2}
+\end{center}
+\end{figure}
+
+
+\iffalse
+
+\begin{table}[h]
+\begin{center}
+\caption{Summary table of $\chi^2$ normalized by degree of freedom after the fitting for each B \pt bins}
+\vspace{1em}
+\label{tab:chi2_tab}
+  \begin{tabular}{ c | c | c | c | c | c | c | c }
+    \hline
+    Dataset & (5,7) & (7,10) & (10,15) & (15,20) & (20,30)) & (30,50) & (50,100) \\
+    \hline
+%    pp & N/A & 1.17 & 2.26 & 1.61 & 1.82 & 0.82 & 0.22 \\
+    PbPb & 0.76 & 1.06 & 1.42 & 1.02 & 1.57 & 0.90 & 0.10 \\
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\fi
+
+%For \pt and centrality doubly differential signal extraction plots, please refer to \ref{sec:sigdoublediff}.
+%For inclusive \pt signal extraction plots, please refer to \ref{sec:inclusivept}.
+
+We also make the comparison between the symmetric raw yield error and their asymmetric upper and lower yield error using the RooFit framework on the unbinned fit. The table is shown below in Table~\ref{tab:ErrorComp}:
+
+
+\begin{table}[h]
+\begin{center}
+\caption{The comparison between RooFit and unbinned fit framework.}
+\vspace{1em}
+\label{tab:ErrorComp}
+  \begin{tabular}{| c | c |c | c| c| }
+    \hline
+     Centrality &  \pt (GeV/c) & Raw Yield Error & RawYield Error Up & Raw Yield Error Down  \\
+    \hline
+    \hline
+0 - 90\% & 7 - 10 & 10.88  & 11.20  & 10.66   \\ 
+0 - 90\% & 10 - 15 & 20.68  & 21.05  & 20.35  \\ 
+0 - 90\% & 15 - 20 & 17.86 & 18.21  & 17.56  \\ 
+0 - 90\% & 20 - 50 & 19.84  & 20.19  &  19.55 \\ 
+0 - 30\% & 10 - 50 &  27.72 &  28.01 &  27.45 \\ 
+30 - 90\% & 10 - 50 & 19.53 & 19.92 &  19.20 \\ 
+0 - 90\% & 10 - 50  & 33.78  & 34.13  & 33.47 \\ 
+    \hline
+    \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\clearpage
+
+\subsection{Closure test of the fitting procedure}
+In order to validate the yield extraction procedure, we generate 5000 toy MC for the fit and make the pull distribution. Then we perform the Guassian fits to the pull distribution to obtain the mean and width. The results are show in Fig ~\ref{fig:closurepullpt} and Fig ~\ref{fig:closurepullcent}:
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_0_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_1_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_2_0_90.png}
+\includegraphics[width= 0.40\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_3_0_90.png}
+\caption{The pull distribution and the Gaussian fits for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, 20 - 50 are shown respectfully above.} 
+\label{fig:closurepullpt} 
+\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_-1_0_90.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_-1_0_30.png}
+\includegraphics[width= 0.45\textwidth]{Plots/ClosureTest/DataBoostrapFit/pull_signal_full_-1_30_90.png}
+\caption{The pull distribution and the Gaussian fits for 0 - 90\% at 7 - 10, 10 - 15, 15 - 20, 20 - 50 are shown respectfully above.} 
+\label{fig:closurepullcent} 
+\end{center}
+\end{figure}
+
+
+
+We can see that all \pt and centrality bins have zero mean and unit width from the Gaussian fits to the pull distribution. This validate the closure of our fits to extract the $B^+$ raw yield. 
+
+
+
+
+\clearpage
