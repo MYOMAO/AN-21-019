@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.21)  20 NOV 2021 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.21)  20 NOV 2021 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,10 +894,56 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 1.
 [1
 
 ]
+
+Package natbib Warning: Citation `QGP1' on page 2 undefined on input line 5.
+
+
+Package natbib Warning: Citation `QGP2' on page 2 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Busza:2018rrf' on page 2 undefined on input l
+ine 5.
+
+
+Package natbib Warning: Citation `Karsch:2003jg' on page 2 undefined on input l
+ine 5.
+
+
+Package natbib Warning: Citation `Andronic:2015wma' on page 2 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `Dong:2019byy' on page 2 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `Eloss1' on page 2 undefined on input line 8.
+
+
+Package natbib Warning: Citation `Baier:2000mf' on page 2 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Chatrchyan:2011sx' on page 2 undefined on inp
+ut line 8.
+
+
+Package natbib Warning: Citation `Aad:2010bu' on page 2 undefined on input line
+ 8.
+
+! Extra }, or forgotten $.
+l.15 ...mu^{-}K^{+} K^{-}$ and $B^0_s \to J/\psi }
+                                                  K^{+} \to \mu^{+}\mu^{-}K^...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 7.
+Package pdftex.def Info: BigDraft.pdf  used on input line 18.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [2
 
@@ -3115,7 +3161,7 @@ Package rerunfilecheck Info: File `AN-21-091_temp.out' has not changed.
 Here is how much of TeX's memory you used:
  17345 strings out of 478994
  267531 string characters out of 5858183
- 568524 words of memory out of 5000000
+ 568543 words of memory out of 5000000
  34159 multiletter control sequences out of 15000+600000
  486403 words of font info for 229 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -3127,18 +3173,18 @@ live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/u
-rw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/pala
-tino/uplbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.
-pfb>
-Output written on AN-21-091_temp.pdf (43 pages, 411649 bytes).
+1/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/
+uplbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on AN-21-091_temp.pdf (43 pages, 417881 bytes).
 PDF statistics:
- 605 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 522 compressed objects within 6 object streams
  122 named destinations out of 1000 (max. 500000)
  339 words of extra memory for PDF output out of 10000 (max. 10000000)
 
