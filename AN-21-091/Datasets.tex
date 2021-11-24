@@ -113,7 +113,7 @@ Finally, the following prompt \JPsi samples were used:
 \subsubsection{MC reweighting}
 \label{sec:mcreweighting}
 
-
+\iffalse 
 The ratio between the MC and the various different spectra shape as shown in the right panel of the same figure. 
 
 \begin{figure}[h]
@@ -137,10 +137,13 @@ For our MC reweighting, we reweight our MC directly to our data shape in the REC
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.90\textwidth]{Plots/Results/plotReweight/JPsiGenpT.png}
-\includegraphics[width= 0.90\textwidth]{Plots/Results/plotReweight/BPlusGenpT.png}
-\includegraphics[width= 0.90\textwidth]{Plots/Results/plotReweight/BPlusGenpT.png}
-\caption{ $J/\psi$ generated \pt distribution before (upper left) and after (upper right) $\hat \pt$ reweighting, $B^+$ generated \pt distribution before (middle left) and after (middle right) $\hat \pt$ reweighting, and $B_s^0$ generated \pt distribution before (lower left) and after (lower right) $\hat \pt$ reweighting are shown above.}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPpthat.png}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPJPsiPt.png}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPGpt.png}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/Bspthat.png}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BsJPsiPt.png}
+\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BsGpt.png}
+\caption{The pthat distribution of the official MC sample (left) as well as the generated $J/\psi$ (middle) and B-meson \pt distribution with pthat weight applied of $B^{+}$ and $B^0_s$ are shown respectfully above.}
 \label{fig:pthatWeightPlot}
 \end{center}
 \end{figure}

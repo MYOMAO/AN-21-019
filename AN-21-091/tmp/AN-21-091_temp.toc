@@ -4,9 +4,10 @@
 \contentsline {subsection}{\numberline {2.2}Event Selection}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}MC samples}{3}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}MC reweighting}{5}{subsubsection.2.3.1}%
-\contentsline {section}{\numberline {3}\ensuremath {\mathrm {B}^{+}}\xspace meson reconstruction}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Muon and \ensuremath {\mathrm {J}\hspace {-.08em}/\hspace {-.14em}\psi }\xspace selection}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Track selection}{12}{subsection.3.2}%
+\contentsline {section}{\numberline {3}\ensuremath {\mathrm {B}^{+}}\xspace meson reconstruction}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Muon and \ensuremath {\mathrm {J}\hspace {-.08em}/\hspace {-.14em}\psi }\xspace selection}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Track selection}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}$J/\psi $ and $\phi $ selection}{11}{subsection.3.3}%
 \contentsline {section}{\numberline {4}\ensuremath {\mathrm {B}^{+}}\xspace meson selection}{13}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Cut optimization}{13}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Fiducial region}{23}{subsection.4.2}%
