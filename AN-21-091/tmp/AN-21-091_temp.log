@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.21)  23 NOV 2021 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.21)  23 NOV 2021 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,42 +1077,42 @@ File: Plots/MCReweight/GenInfo/BPpthat.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/BPpthat.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/BPpthat.png  used on input li
 ne 140.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/GenInfo/BPJPsiPt.png 0>
 <Plots/MCReweight/GenInfo/BPJPsiPt.png, id=311, 698.61pt x 473.77pt>
 File: Plots/MCReweight/GenInfo/BPJPsiPt.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/BPJPsiPt.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/BPJPsiPt.png  used on input l
 ine 141.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/GenInfo/BPGpt.png 0>
 <Plots/MCReweight/GenInfo/BPGpt.png, id=312, 698.61pt x 473.77pt>
 File: Plots/MCReweight/GenInfo/BPGpt.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/BPGpt.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/BPGpt.png  used on input line
  142.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/GenInfo/Bspthat.png 0>
 <Plots/MCReweight/GenInfo/Bspthat.png, id=313, 698.61pt x 473.77pt>
 File: Plots/MCReweight/GenInfo/Bspthat.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/Bspthat.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/Bspthat.png  used on input li
 ne 143.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/GenInfo/BsJPsiPt.png 0>
 <Plots/MCReweight/GenInfo/BsJPsiPt.png, id=314, 698.61pt x 473.77pt>
 File: Plots/MCReweight/GenInfo/BsJPsiPt.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/BsJPsiPt.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/BsJPsiPt.png  used on input l
 ine 144.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/GenInfo/BsGpt.png 0>
 <Plots/MCReweight/GenInfo/BsGpt.png, id=315, 698.61pt x 473.77pt>
 File: Plots/MCReweight/GenInfo/BsGpt.png Graphic file (type png)
 <use Plots/MCReweight/GenInfo/BsGpt.png>
 Package pdftex.def Info: Plots/MCReweight/GenInfo/BsGpt.png  used on input line
  145.
-(pdftex.def)             Requested size: 150.23137pt x 101.88025pt.
+(pdftex.def)             Requested size: 136.5746pt x 92.61972pt.
 <789FIG Plots/MCReweight/Bpt/BPPtDataMC.png 1>
 <Plots/MCReweight/Bpt/BPPtDataMC.png, id=317, 886.31125pt x 603.25375pt>
 File: Plots/MCReweight/Bpt/BPPtDataMC.png Graphic file (type png)
@@ -1127,14 +1127,15 @@ File: Plots/MCReweight/Bpt/BPPtWeight.png Graphic file (type png)
 Package pdftex.def Info: Plots/MCReweight/Bpt/BPPtWeight.png  used on input lin
 e 162.
 (pdftex.def)             Requested size: 204.85844pt x 196.60843pt.
-<789FIG Plots/MCReweight/Bpt/BPPtDataMC.png 1>
-File: Plots/MCReweight/Bpt/BPPtDataMC.png Graphic file (type png)
-<use Plots/MCReweight/Bpt/BPPtDataMC.png>
-Package pdftex.def Info: Plots/MCReweight/Bpt/BPPtDataMC.png  used on input lin
+<789FIG Plots/MCReweight/Bpt/BsPtDataMC.png 1>
+<Plots/MCReweight/Bpt/BsPtDataMC.png, id=320, 867.24pt x 587.19376pt>
+File: Plots/MCReweight/Bpt/BsPtDataMC.png Graphic file (type png)
+<use Plots/MCReweight/Bpt/BsPtDataMC.png>
+Package pdftex.def Info: Plots/MCReweight/Bpt/BsPtDataMC.png  used on input lin
 e 163.
-(pdftex.def)             Requested size: 204.85844pt x 139.4266pt.
+(pdftex.def)             Requested size: 204.85844pt x 138.69838pt.
 <789FIG Plots/MCReweight/Bpt/BsPtWeight.png 1>
-<Plots/MCReweight/Bpt/BsPtWeight.png, id=320, 598.235pt x 574.145pt>
+<Plots/MCReweight/Bpt/BsPtWeight.png, id=321, 598.235pt x 574.145pt>
 File: Plots/MCReweight/Bpt/BsPtWeight.png Graphic file (type png)
 <use Plots/MCReweight/Bpt/BsPtWeight.png>
 Package pdftex.def Info: Plots/MCReweight/Bpt/BsPtWeight.png  used on input lin
@@ -1166,7 +1167,9 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 191.
 [6 </Users/zhaozhongshi/Desktop/TempDownload/BRAANotes/AN-21-091/Plots/MCReweig
 ht/Bpt/BPPtDataMC.png> </Users/zhaozhongshi/Desktop/TempDownload/BRAANotes/AN-2
 1-091/Plots/MCReweight/Bpt/BPPtWeight.png> </Users/zhaozhongshi/Desktop/TempDow
-nload/BRAANotes/AN-21-091/Plots/MCReweight/Bpt/BsPtWeight.png>]
+nload/BRAANotes/AN-21-091/Plots/MCReweight/Bpt/BsPtDataMC.png> </Users/zhaozhon
+gshi/Desktop/TempDownload/BRAANotes/AN-21-091/Plots/MCReweight/Bpt/BsPtWeight.p
+ng>]
 ! Undefined control sequence.
 l.197 ...epresents the Gaussian fit results. \note
                                                   {Add table with fit result...
@@ -1176,135 +1179,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Argument of \frac  has an extra }.
-<inserted text> 
-                \par 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \frac  was complete.
-<to be read again> 
-                   \par 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...e^{\frac {-(x-\mu )^2}}{2 \sigma ^2}
-                                                  $) of $B^+$ and $B^0_s$ 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \frac  has an extra }.
-<inserted text> 
-                \par 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \frac  was complete.
-<to be read again> 
-                   \par 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...e^{\frac {-(x-\mu )^2}}{2 \sigma ^2}
-                                                  $) of $B^+$ and $B^0_s$ 
-l.202 ...^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 <789FIG Plots/MCReweight/PVz/BPPVZMCData.png 2>
-<Plots/MCReweight/PVz/BPPVZMCData.png, id=337, 1802.735pt x 574.145pt>
+<Plots/MCReweight/PVz/BPPVZMCData.png, id=339, 1802.735pt x 574.145pt>
 File: Plots/MCReweight/PVz/BPPVZMCData.png Graphic file (type png)
 <use Plots/MCReweight/PVz/BPPVZMCData.png>
 Package pdftex.def Info: Plots/MCReweight/PVz/BPPVZMCData.png  used on input li
 ne 227.
 (pdftex.def)             Requested size: 441.58731pt x 140.6361pt.
 <789FIG Plots/MCReweight/PVz/BsPVZMCData.png 2>
-<Plots/MCReweight/PVz/BsPVZMCData.png, id=338, 1802.735pt x 574.145pt>
+<Plots/MCReweight/PVz/BsPVZMCData.png, id=340, 1802.735pt x 574.145pt>
 File: Plots/MCReweight/PVz/BsPVZMCData.png Graphic file (type png)
 <use Plots/MCReweight/PVz/BsPVZMCData.png>
 Package pdftex.def Info: Plots/MCReweight/PVz/BsPVZMCData.png  used on input li
@@ -1355,14 +1238,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--10
  []
 
 <789FIG Plots/BmesonReconstruction/BP.png 3>
-<Plots/BmesonReconstruction/BP.png, id=357, 711.1368pt x 328.5876pt>
+<Plots/BmesonReconstruction/BP.png, id=359, 711.1368pt x 328.5876pt>
 File: Plots/BmesonReconstruction/BP.png Graphic file (type png)
 <use Plots/BmesonReconstruction/BP.png>
 Package pdftex.def Info: Plots/BmesonReconstruction/BP.png  used on input line 
 13.
 (pdftex.def)             Requested size: 409.71689pt x 189.31244pt.
 <789FIG Plots/BmesonReconstruction/Bs.png 3>
-<Plots/BmesonReconstruction/Bs.png, id=358, 665.8476pt x 444.2196pt>
+<Plots/BmesonReconstruction/Bs.png, id=360, 665.8476pt x 444.2196pt>
 File: Plots/BmesonReconstruction/Bs.png Graphic file (type png)
 <use Plots/BmesonReconstruction/Bs.png>
 Package pdftex.def Info: Plots/BmesonReconstruction/Bs.png  used on input line 
@@ -1442,542 +1325,354 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package natbib Warning: Citation `Hocker:2007ht' on page 13 undefined on input 
 line 8.
 
-! Misplaced alignment tab character &.
-l.9 ...m in transverse plane) cuts (dls3D$>$12.0 &
-                                                  & cos$\theta$ $>$0.95; thi...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.9 ... in transverse plane) cuts (dls3D$>$12.0 &&
-                                                   cos$\theta$ $>$0.95; this...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.9 ...GeV/c bin with the selection (dls3D$>$9.0 &
-                                                  & cos$\theta$ $>$0.92) to ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.9 ...eV/c bin with the selection (dls3D$>$9.0 &&
-                                                   cos$\theta$ $>$0.92) to e...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 <789FIG BigDraft 4>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 14.
+Package pdftex.def Info: BigDraft.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [13
 
 ]
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1pt_0.png 4>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu1pt_0.png 4>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1pt_0.png' not found on inpu
-t line 19.
-
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1pt_0.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...]{Plots/CutOpt/KinematicsDis/Bmu1pt_0.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1pt_1.png 4>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1pt_1.png' not found on inpu
-t line 20.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu1pt_0.png' not found on i
+nput line 18.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1pt_1.png' not 
-found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu1pt_0.png' n
+ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ...]{Plots/CutOpt/KinematicsDis/Bmu1pt_1.png}
+l.18 ...lots/CutOpt/PreFilteredPlots/Bmu1pt_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1eta_0.png 4>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu1pt_1.png 4>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1eta_0.png' not found on inp
-ut line 21.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu1pt_1.png' not found on i
+nput line 19.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1eta_0.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu1pt_1.png' n
+ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...{Plots/CutOpt/KinematicsDis/Bmu1eta_0.png}
+l.19 ...lots/CutOpt/PreFilteredPlots/Bmu1pt_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1eta_1.png 4>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu1eta_0.png 4>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1eta_1.png' not found on inp
-ut line 22.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu1eta_0.png' not found on 
+input line 20.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1eta_1.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu1eta_0.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...{Plots/CutOpt/KinematicsDis/Bmu1eta_1.png}
+l.20 ...ots/CutOpt/PreFilteredPlots/Bmu1eta_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1phi_0.png 4>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu1eta_1.png 4>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1phi_0.png' not found on inp
-ut line 23.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu1eta_1.png' not found on 
+input line 21.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1phi_0.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu1eta_1.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...{Plots/CutOpt/KinematicsDis/Bmu1phi_0.png}
+l.21 ...ots/CutOpt/PreFilteredPlots/Bmu1eta_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bmu1phi_1.png 4>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu1phi_1.png' not found on inp
-ut line 24.
-
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu1phi_1.png' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...{Plots/CutOpt/KinematicsDis/Bmu1phi_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <789FIG BigDraft 5>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 31.
+Package pdftex.def Info: BigDraft.pdf  used on input line 30.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[14]
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2pt_0.png 5>
+[14
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2pt_0.png' not found on inpu
-t line 35.
+]
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu2pt_0.png 5>
 
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2pt_0.png' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...]{Plots/CutOpt/KinematicsDis/Bmu2pt_0.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2pt_1.png 5>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2pt_1.png' not found on inpu
-t line 36.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu2pt_0.png' not found on i
+nput line 34.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2pt_1.png' not 
-found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu2pt_0.png' n
+ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 ...]{Plots/CutOpt/KinematicsDis/Bmu2pt_1.png}
+l.34 ...lots/CutOpt/PreFilteredPlots/Bmu2pt_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2eta_0.png 5>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu2pt_1.png 5>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2eta_0.png' not found on inp
-ut line 37.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu2pt_1.png' not found on i
+nput line 35.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2eta_0.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu2pt_1.png' n
+ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ...{Plots/CutOpt/KinematicsDis/Bmu2eta_0.png}
+l.35 ...lots/CutOpt/PreFilteredPlots/Bmu2pt_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2eta_1.png 5>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu2eta_0.png 5>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2eta_1.png' not found on inp
-ut line 38.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu2eta_0.png' not found on 
+input line 36.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2eta_1.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu2eta_0.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...{Plots/CutOpt/KinematicsDis/Bmu2eta_1.png}
+l.36 ...ots/CutOpt/PreFilteredPlots/Bmu2eta_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2phi_0.png 5>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bmu2eta_1.png 5>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2phi_0.png' not found on inp
-ut line 39.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bmu2eta_1.png' not found on 
+input line 37.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2phi_0.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bmu2eta_1.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...{Plots/CutOpt/KinematicsDis/Bmu2phi_0.png}
+l.37 ...ots/CutOpt/PreFilteredPlots/Bmu2eta_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bmu2phi_1.png 5>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bmu2phi_1.png' not found on inp
-ut line 40.
-
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bmu2phi_1.png' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...{Plots/CutOpt/KinematicsDis/Bmu2phi_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 48.
+Package pdftex.def Info: BigDraft.pdf  used on input line 47.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[15]
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png 6>
+[15
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png' not found on inp
-ut line 52.
+]
+<789FIG Plots/CutOpt/PreFilteredPlots/Btrk1Pt_0.png 6>
 
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...{Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png 6>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png' not found on inp
-ut line 53.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Btrk1Pt_0.png' not found on 
+input line 51.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png' not
- found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Btrk1Pt_0.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...{Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png}
+l.51 ...ots/CutOpt/PreFilteredPlots/Btrk1Pt_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png 6>
+<789FIG Plots/CutOpt/PreFilteredPlots/Btrk1Pt_1.png 6>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png' not found on in
-put line 54.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Btrk1Pt_1.png' not found on 
+input line 52.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png' no
-t found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Btrk1Pt_1.png' 
+not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png}
+l.52 ...ots/CutOpt/PreFilteredPlots/Btrk1Pt_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png 6>
+<789FIG Plots/CutOpt/PreFilteredPlots/Btrk1Eta_0.png 6>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png' not found on in
-put line 55.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Btrk1Eta_0.png' not found on
+ input line 53.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png' no
-t found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Btrk1Eta_0.png'
+ not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 ...Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png}
+l.53 ...ts/CutOpt/PreFilteredPlots/Btrk1Eta_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png 6>
+<789FIG Plots/CutOpt/PreFilteredPlots/Btrk1Eta_1.png 6>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png' not found on in
-put line 56.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Btrk1Eta_1.png' not found on
+ input line 54.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png' no
-t found: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Btrk1Eta_1.png'
+ not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 ...Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png}
+l.54 ...ts/CutOpt/PreFilteredPlots/Btrk1Eta_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png 6>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png' not found on in
-put line 57.
-
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png' no
-t found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <789FIG BigDraft 7>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 63.
+Package pdftex.def Info: BigDraft.pdf  used on input line 62.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[16]
-<789FIG Plots/CutOpt/KinematicsDis/Bpt_0.png 7>
+[16
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bpt_0.png' not found on input l
-ine 67.
+]
+<789FIG Plots/CutOpt/PreFilteredPlots/Bpt_0.png 7>
 
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bpt_0.png' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...dth]{Plots/CutOpt/KinematicsDis/Bpt_0.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bpt_1.png 7>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bpt_1.png' not found on input l
-ine 68.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bpt_0.png' not found on inpu
+t line 66.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bpt_1.png' not fou
-nd: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bpt_0.png' not 
+found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 ...dth]{Plots/CutOpt/KinematicsDis/Bpt_1.png}
+l.66 ...]{Plots/CutOpt/PreFilteredPlots/Bpt_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/By_0.png 7>
+<789FIG Plots/CutOpt/PreFilteredPlots/Bpt_1.png 7>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/By_0.png' not found on input li
-ne 69.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/Bpt_1.png' not found on inpu
+t line 67.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/By_0.png' not foun
-d: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/Bpt_1.png' not 
+found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...idth]{Plots/CutOpt/KinematicsDis/By_0.png}
+l.67 ...]{Plots/CutOpt/PreFilteredPlots/Bpt_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/By_1.png 7>
+<789FIG Plots/CutOpt/PreFilteredPlots/By_0.png 7>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/By_1.png' not found on input li
-ne 70.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/By_0.png' not found on input
+ line 68.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/By_1.png' not foun
-d: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/By_0.png' not f
+ound: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...idth]{Plots/CutOpt/KinematicsDis/By_1.png}
+l.68 ...h]{Plots/CutOpt/PreFilteredPlots/By_0.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<789FIG Plots/CutOpt/KinematicsDis/Bphi_0.png 7>
+<789FIG Plots/CutOpt/PreFilteredPlots/By_1.png 7>
 
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bphi_0.png' not found on input 
-line 71.
+LaTeX Warning: File `Plots/CutOpt/PreFilteredPlots/By_1.png' not found on input
+ line 69.
 
 
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bphi_0.png' not fo
-und: using draft setting.
+! Package pdftex.def Error: File `Plots/CutOpt/PreFilteredPlots/By_1.png' not f
+ound: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...th]{Plots/CutOpt/KinematicsDis/Bphi_0.png}
+l.69 ...h]{Plots/CutOpt/PreFilteredPlots/By_1.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-<789FIG Plots/CutOpt/KinematicsDis/Bphi_1.png 7>
-
-LaTeX Warning: File `Plots/CutOpt/KinematicsDis/Bphi_1.png' not found on input 
-line 72.
-
-
-! Package pdftex.def Error: File `Plots/CutOpt/KinematicsDis/Bphi_1.png' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ...th]{Plots/CutOpt/KinematicsDis/Bphi_1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <789FIG BigDraft 8>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 77.
+Package pdftex.def Info: BigDraft.pdf  used on input line 76.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[17]
-Overfull \hbox (24.5629pt too wide) in paragraph at lines 91--92
+[17
+
+]
+Overfull \hbox (24.5629pt too wide) in paragraph at lines 92--93
 []\OT1/ppl/m/n/10.95 The BDT train-ing setup for all $\U/fsy/m/i/10.95 p[]$ \OT
 1/ppl/m/n/10.95 bins are as fol-lows: NTree = 850, MinN-ode-Size=2.5%, MaxDepth
 =3,
  []
 
 
-Overfull \hbox (26.11113pt too wide) in paragraph at lines 93--94
+Overfull \hbox (26.11113pt too wide) in paragraph at lines 94--95
 []\OT1/ppl/m/n/10.95 The op-ti-mal BDT cut val-ues are de-fined as the num-bers
  which max-i-mize the fig-ure of merit(statistical
  []
 
 
 Package natbib Warning: Citation `CMS-PAS-HIN-16-011' on page 18 undefined on i
-nput line 100.
+nput line 101.
 
 <789FIG Plots/CutOpt/CorrelationMatrixB1.pdf 8>
 
 LaTeX Warning: File `Plots/CutOpt/CorrelationMatrixB1.pdf' not found on input l
-ine 105.
+ine 106.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/CorrelationMatrixB1.pdf' not fou
@@ -1987,7 +1682,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 ...th]{Plots/CutOpt/CorrelationMatrixB1.pdf}
+l.106 ...th]{Plots/CutOpt/CorrelationMatrixB1.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1995,7 +1690,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/CutOpt/CorrelationMatrixS1.pdf 8>
 
 LaTeX Warning: File `Plots/CutOpt/CorrelationMatrixS1.pdf' not found on input l
-ine 106.
+ine 107.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/CorrelationMatrixS1.pdf' not fou
@@ -2005,7 +1700,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 ...th]{Plots/CutOpt/CorrelationMatrixS1.pdf}
+l.107 ...th]{Plots/CutOpt/CorrelationMatrixS1.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2016,7 +1711,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <789FIG Plots/CutOpt/CorrelationMatrixB8.pdf 9>
 
 LaTeX Warning: File `Plots/CutOpt/CorrelationMatrixB8.pdf' not found on input l
-ine 114.
+ine 115.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/CorrelationMatrixB8.pdf' not fou
@@ -2026,7 +1721,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...th]{Plots/CutOpt/CorrelationMatrixB8.pdf}
+l.115 ...th]{Plots/CutOpt/CorrelationMatrixB8.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2034,7 +1729,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/CutOpt/CorrelationMatrixS8.pdf 9>
 
 LaTeX Warning: File `Plots/CutOpt/CorrelationMatrixS8.pdf' not found on input l
-ine 115.
+ine 116.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/CorrelationMatrixS8.pdf' not fou
@@ -2044,7 +1739,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...th]{Plots/CutOpt/CorrelationMatrixS8.pdf}
+l.116 ...th]{Plots/CutOpt/CorrelationMatrixS8.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2055,29 +1750,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <789FIG BigDraft 10>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 121.
+Package pdftex.def Info: BigDraft.pdf  used on input line 122.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [18
-
-
-
-
 
 ]
 <789FIG BigDraft 10>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 121.
+Package pdftex.def Info: BigDraft.pdf  used on input line 122.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 <789FIG Plots/CutOpt/overtrain_BDT1.pdf 10>
 
 LaTeX Warning: File `Plots/CutOpt/overtrain_BDT1.pdf' not found on input line 1
-26.
+27.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/overtrain_BDT1.pdf' not found: u
@@ -2087,7 +1778,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 ...xtwidth]{Plots/CutOpt/overtrain_BDT1.pdf}
+l.127 ...xtwidth]{Plots/CutOpt/overtrain_BDT1.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2095,7 +1786,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/CutOpt/overtrain_BDT8.pdf 10>
 
 LaTeX Warning: File `Plots/CutOpt/overtrain_BDT8.pdf' not found on input line 1
-27.
+28.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/overtrain_BDT8.pdf' not found: u
@@ -2105,20 +1796,20 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ...xtwidth]{Plots/CutOpt/overtrain_BDT8.pdf}
+l.128 ...xtwidth]{Plots/CutOpt/overtrain_BDT8.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 <789FIG Plots/CutOpt/variables_id_c1_4.pdf 11>
 
 LaTeX Warning: File `Plots/CutOpt/variables_id_c1_4.pdf' not found on input lin
-e 137.
+e 138.
 
 
 ! Package pdftex.def Error: File `Plots/CutOpt/variables_id_c1_4.pdf' not found
@@ -2128,7 +1819,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 ...idth]{Plots/CutOpt/variables_id_c1_4.pdf}
+l.138 ...idth]{Plots/CutOpt/variables_id_c1_4.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2139,7 +1830,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <789FIG BigDraft 12>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 143.
+Package pdftex.def Info: BigDraft.pdf  used on input line 144.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [20
 
@@ -2147,21 +1838,21 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 143.
 <789FIG BigDraft 12>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 143.
+Package pdftex.def Info: BigDraft.pdf  used on input line 144.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [21]
 
 LaTeX Warning: Reference `sec:tmvaresults' on page 22 undefined on input line 1
-46.
+47.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
 <789FIG Plots/CutOpt/mvaeffs_BDT4.pdf 12>
 
-LaTeX Warning: File `Plots/CutOpt/mvaeffs_BDT4.pdf' not found on input line 150
+LaTeX Warning: File `Plots/CutOpt/mvaeffs_BDT4.pdf' not found on input line 151
 .
 
 
@@ -2172,7 +1863,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 ...textwidth]{Plots/CutOpt/mvaeffs_BDT4.pdf}
+l.151 ...textwidth]{Plots/CutOpt/mvaeffs_BDT4.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2180,7 +1871,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG BigDraft 13>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 169.
+Package pdftex.def Info: BigDraft.pdf  used on input line 170.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [22
 
@@ -2188,7 +1879,7 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 169.
 <789FIG Plots/2DBeforeCut/Acc_0_90.pdf 13>
 
 LaTeX Warning: File `Plots/2DBeforeCut/Acc_0_90.pdf' not found on input line 17
-6.
+7.
 
 
 ! Package pdftex.def Error: File `Plots/2DBeforeCut/Acc_0_90.pdf' not found: us
@@ -2198,7 +1889,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 ...extwidth]{Plots/2DBeforeCut/Acc_0_90.pdf}
+l.177 ...extwidth]{Plots/2DBeforeCut/Acc_0_90.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2206,7 +1897,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/2DBeforeCut/Sel_0_90.pdf 13>
 
 LaTeX Warning: File `Plots/2DBeforeCut/Sel_0_90.pdf' not found on input line 17
-7.
+8.
 
 
 ! Package pdftex.def Error: File `Plots/2DBeforeCut/Sel_0_90.pdf' not found: us
@@ -2216,7 +1907,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 ...extwidth]{Plots/2DBeforeCut/Sel_0_90.pdf}
+l.178 ...extwidth]{Plots/2DBeforeCut/Sel_0_90.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2224,7 +1915,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/2DBeforeCut/Eff_0_90.pdf 13>
 
 LaTeX Warning: File `Plots/2DBeforeCut/Eff_0_90.pdf' not found on input line 17
-8.
+9.
 
 
 ! Package pdftex.def Error: File `Plots/2DBeforeCut/Eff_0_90.pdf' not found: us
@@ -2234,20 +1925,20 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 ...extwidth]{Plots/2DBeforeCut/Eff_0_90.pdf}
+l.179 ...extwidth]{Plots/2DBeforeCut/Eff_0_90.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
 
  []
 
 <789FIG Plots/invEff/hMass2D_Cent0-90.pdf 14>
 
 LaTeX Warning: File `Plots/invEff/hMass2D_Cent0-90.pdf' not found on input line
- 190.
+ 191.
 
 
 ! Package pdftex.def Error: File `Plots/invEff/hMass2D_Cent0-90.pdf' not found:
@@ -2257,7 +1948,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 ...width]{Plots/invEff/hMass2D_Cent0-90.pdf}
+l.191 ...width]{Plots/invEff/hMass2D_Cent0-90.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2265,7 +1956,7 @@ If that doesn't work, type  X <return>  to quit.
 <789FIG Plots/invEff/hMass2D_mc_hyperfine_Cent0-90.pdf 14>
 
 LaTeX Warning: File `Plots/invEff/hMass2D_mc_hyperfine_Cent0-90.pdf' not found 
-on input line 191.
+on input line 192.
 
 
 ! Package pdftex.def Error: File `Plots/invEff/hMass2D_mc_hyperfine_Cent0-90.pd
@@ -2275,7 +1966,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191 ...invEff/hMass2D_mc_hyperfine_Cent0-90.pdf}
+l.192 ...invEff/hMass2D_mc_hyperfine_Cent0-90.pdf}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2286,7 +1977,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <789FIG BigDraft 15>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 197.
+Package pdftex.def Info: BigDraft.pdf  used on input line 198.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [23
 
@@ -2294,7 +1985,7 @@ Package pdftex.def Info: BigDraft.pdf  used on input line 197.
 <789FIG BigDraft 15>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
-Package pdftex.def Info: BigDraft.pdf  used on input line 197.
+Package pdftex.def Info: BigDraft.pdf  used on input line 198.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 [24])
 <567INP MCDataComparison>
@@ -3539,13 +3230,13 @@ Package rerunfilecheck Info: File `AN-21-091_temp.out' has not changed.
 (rerunfilecheck)             Checksum: ED81ECB7FD7228B9914B51689359E662;9706.
  ) 
 Here is how much of TeX's memory you used:
- 17459 strings out of 478994
- 270537 string characters out of 5858183
+ 17369 strings out of 478994
+ 267596 string characters out of 5858183
  570925 words of memory out of 5000000
- 34235 multiletter control sequences out of 15000+600000
+ 34160 multiletter control sequences out of 15000+600000
  493613 words of font info for 249 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,15n,104p,1432b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,15n,104p,1184b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -3561,10 +3252,10 @@ s/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 latino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/
 uplbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on AN-21-091_temp.pdf (51 pages, 778184 bytes).
+Output written on AN-21-091_temp.pdf (51 pages, 859430 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
+ 686 PDF objects out of 1000 (max. 8388607)
  573 compressed objects within 6 object streams
  138 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
 

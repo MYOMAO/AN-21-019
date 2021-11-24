@@ -5,9 +5,8 @@ A cut optimization procedure was performed to decide the cut values. For more de
 
 \subsection{Cut optimization}
 \label{sec:CutOpt}
-The goal of the optimization procedure is to maximize the statistical significance of the signals while keeping reasonably high signal efficiencies. The optimal cut that minimizes background efficiency for a specific signal efficiency is obtained by the TMVA(Toolkit for Multivariate Data Analysis with ROOT)~\cite{Hocker:2007ht}. \\
-Boosted Decision Tree(BDT) is chosen to be the classification method in TMVA training for \Bplus. In addition, for comparison the CutsGA (Genetic algorithm-based rectangular cut decision) is also examined. We found that in the lowest \pt bin(5-7GeV), the prefilter itself does not filter out background sufficiently, which limits the performance of BDT method. In order to enhance the performance, we first found the optimal rectangular cuts from CutsGA method in this \pt bin. After then we used normalized decay length(dls3D) and cos$\theta$(2D angle between $B^{+}$ meson displacement and $B^{+}$ meson momentum in transverse plane) cuts (dls3D$>$12.0 && cos$\theta$ $>$0.95; this is slightly looser than the optimal rectangular cuts, in order not to reject possible signals that BDT can reconstruct but CutsGA cannot) in our prefilter for BDT training. This enhanced the raw yield extraction and reduced the yield error. We also applied this strategy to the \pt 7-10 GeV/c bin with the selection (dls3D$>$9.0 && cos$\theta$ $>$0.92) to enhance the performance. For other \pt bins, we just used the original prefilter for our BDT training. \\
-The reconstructed candidates matched to the generated signal in MC sample are used as signal when training, while the reconstructed candidates in sideband (0.15 GeV/c$^2$ $<$ $|M_{B^{+}}-M_{B^{+}}^{PDG}|$ $<$ 0.25 GeV/c$^2$) of data sample are used as background.
+The goal of the optimization procedure is to maximize the figure of merit $S/\sqrt{S+B}$ of the signals while keeping reasonably high signal efficiencies. The optimal cut that minimizes background efficiency for a specific signal efficiency is obtained by the TMVA(Toolkit for Multivariate Data Analysis with ROOT)~\cite{Hocker:2007ht}. \\
+Boosted Decision Tree(BDT) is chosen to be the classification method in TMVA training for \Bplus. The reconstructed candidates matched to the generated signal in MC sample are used as signal when training, while the reconstructed candidates in sideband (0.15 GeV/c$^2$ $<$ $|M_{B^{+}}-M_{B^{+}}^{PDG}|$ $<$ 0.25 GeV/c$^2$) of data sample are used as background.
 
 The kinematic variable distributions of daughter tracks and $B^+$ mesons before and after applying the prefilter is shown on Figure~\ref{fig:KinematicsDisMuon1},~\ref{fig:KinematicsDisMuon2},~\ref{fig:KinematicsDisKaon}, ~\ref{fig:KinematicsDisBP}
 
@@ -16,12 +15,12 @@ The kinematic variable distributions of daughter tracks and $B^+$ mesons before 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1pt_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1pt_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1eta_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1eta_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1phi_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu1phi_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1eta_1.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1phi_0.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu1phi_1.png}
 \caption{The normalized $J/\psi$ $\mu^-$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
 \label{fig:KinematicsDisMuon1}
 \end{center}
@@ -32,12 +31,12 @@ The kinematic variable distributions of daughter tracks and $B^+$ mesons before 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2pt_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2pt_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2eta_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2eta_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2phi_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bmu2phi_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2eta_1.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2phi_0.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bmu2phi_1.png}
 \caption{The normalized $J/\psi$ $\mu^+$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
 \label{fig:KinematicsDisMuon2}
 \end{center}
@@ -49,12 +48,12 @@ The kinematic variable distributions of daughter tracks and $B^+$ mesons before 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Pt_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Pt_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Eta_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Eta_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Phi_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Btrk1Phi_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Pt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Pt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Eta_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Eta_1.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Phi_0.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Btrk1Phi_1.png}
 \caption{The normalized $K^+$ track, muons, and $K^+$ track kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
 \label{fig:KinematicsDisKaon}
 \end{center}
@@ -64,12 +63,12 @@ The kinematic variable distributions of daughter tracks and $B^+$ mesons before 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bpt_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bpt_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/By_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/By_1.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bphi_0.png}
-\includegraphics[width=0.45\textwidth]{Plots/CutOpt/KinematicsDis/Bphi_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bpt_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bpt_1.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/By_0.png}
+\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/By_1.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bphi_0.png}
+%\includegraphics[width=0.45\textwidth]{Plots/CutOpt/PreFilteredPlots/Bphi_1.png}
 \caption{The normalized  $B^+$ kinematic variable distributions before and after prefilter for \pt = 7 - 10 GeV/c (left) and 10 - 50 GeV/c (right) are shown above.}
 \label{fig:KinematicsDisBP}
 \end{center}
@@ -87,6 +86,8 @@ Then, we use the following six selection variables trained for PbPb:
 \item Btrk1Eta: The absolute value of the track pseudorapidity
 \item Btrk1Dxysig: Normalized track Dxy, the transverse distance between track and the primary vertex normalized by its uncertainty
 \end{itemize}
+
+Same thing for $B^0_s$. HG
 
 The BDT training setup for all \pt bins are as follows: NTree = 850, MinNodeSize=2.5\%, MaxDepth=3, BoostType=AdaBoost, AdaBoostBeta=0.5, UseBaggedBoost, BaggedSampleFraction=0.5, SeparationType=GiniIndex, nCuts=20
 

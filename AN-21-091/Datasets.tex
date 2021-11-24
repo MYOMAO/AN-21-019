@@ -137,12 +137,12 @@ For our MC reweighting, we reweight our MC directly to our data shape in the REC
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPpthat.png}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPJPsiPt.png}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BPGpt.png}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/Bspthat.png}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BsJPsiPt.png}
-\includegraphics[width= 0.33\textwidth]{Plots/MCReweight/GenInfo/BsGpt.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/BPpthat.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/BPJPsiPt.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/BPGpt.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/Bspthat.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/BsJPsiPt.png}
+\includegraphics[width= 0.30\textwidth]{Plots/MCReweight/GenInfo/BsGpt.png}
 \caption{The pthat distribution of the official MC sample (left) as well as the generated $J/\psi$ (middle) and B-meson \pt distribution with pthat weight applied of $B^{+}$ and $B^0_s$ are shown respectfully above.}
 \label{fig:pthatWeightPlot}
 \end{center}
@@ -160,7 +160,7 @@ Then, we take the ratio of the normalized data raw yield to the normalized MC ra
 \begin{center}
 \includegraphics[width= 0.45\textwidth]{Plots/MCReweight/Bpt/BPPtDataMC.png}
 \includegraphics[width= 0.45\textwidth]{Plots/MCReweight/Bpt/BPPtWeight.png}
-\includegraphics[width= 0.45\textwidth]{Plots/MCReweight/Bpt/BPPtDataMC.png}
+\includegraphics[width= 0.45\textwidth]{Plots/MCReweight/Bpt/BsPtDataMC.png}
 \includegraphics[width= 0.45\textwidth]{Plots/MCReweight/Bpt/BsPtWeight.png}
 \caption{The MC-Data agreement between the signal raw yield in data (red) and MC (green) as a function of B meson $p_{T}$ for $B^{+}$ (up) and $B^0_s$ (down). We fit the ratio with the function: $y = p_0/x^2 + p_1 log(x) + p_2$. We will apply this function to the efficiency correct to obtain the systematic uncertainties due to the B $p_T$ shapes.}
 \label{fig:BptReweightShape}
@@ -199,7 +199,7 @@ The result after this weighting can be found in Fig. \ref{fig:datamc-pvz-pp} for
 
 \begin{table}[h]
 \begin{center}
-	\caption{Summary of fitting parameters for the Gaussian functions ($y = N e^{\frac{-(x-\mu)^2}}{2 \sigma^2}$) of $B^+$ and $B^0_s$ }
+	\caption{Summary of fitting parameters for the Gaussian functions ($y = N e^{\frac{-(x-\mu)^2}{2 \sigma^2}}$) of $B^+$ and $B^0_s$ }
 \vspace{1em}
 \label{fig:BptReweighTable}
 \begin{tabular}{| c | c | c | c| }
